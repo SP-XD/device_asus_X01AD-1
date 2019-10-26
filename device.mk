@@ -51,7 +51,6 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.2-impl
 
 PRODUCT_PACKAGES += \
-    audio.a2dp.default \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.primary.msm8953 \
@@ -72,6 +71,12 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libssrec
+
+# A2DP
+PRODUCT_PACKAGES += \
+    audio.a2dp.default \
+    android.hardware.bluetooth.a2dp@1.0-impl \
+    android.hardware.bluetooth.a2dp@1.0-service
 
 # Audio Configs
 PRODUCT_COPY_FILES += \
