@@ -92,6 +92,7 @@ ro.telephony.iwlan_operation_mode=legacy
 vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # SurfaceFlinger
+debug.sf.disable_backpressure=1
 debug.sf.early_phase_offset_ns=11600000
 debug.sf.early_app_phase_offset_ns=11600000
 debug.sf.early_gl_phase_offset_ns=3000000
