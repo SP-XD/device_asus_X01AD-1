@@ -1,0 +1,2 @@
+allow vold proc_touchpanel:dir r_dir_perms;
+allow vold vendor_apex_file:file { getattr };
