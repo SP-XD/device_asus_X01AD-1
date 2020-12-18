@@ -212,9 +212,6 @@ PRODUCT_PACKAGES += \
 
 # HW Crypto
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
-
-PRODUCT_PACKAGES += \
     libcrypto
 
 # Init
