@@ -434,8 +434,7 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package \
-    com.android.vndk.current.on_vendor
+    vndk_package
 
 # Wifi
 PRODUCT_PACKAGES += \
