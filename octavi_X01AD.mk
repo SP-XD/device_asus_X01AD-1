@@ -18,7 +18,7 @@ $(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
 
-mization
+#PE STUFF
 TARGET_INCLUDE_STOCK_ARCORE := false
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
