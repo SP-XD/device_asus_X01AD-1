@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The PixelExperience Project
+# Copyright (C) 2020 The OCTAVI OS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -13,8 +13,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Set shipping API level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit common Pixelexperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit common octavi stuff.
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
 
@@ -27,7 +27,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Device identifiers.
 PRODUCT_DEVICE := X01AD
-PRODUCT_NAME := aosp_X01AD
+PRODUCT_NAME := octavi_X01AD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01AD
 PRODUCT_MANUFACTURER := asus
