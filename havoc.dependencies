@@ -1,13 +1,12 @@
 [
   {
-    "repository":  "kernel_asus_X01AD",
+    "repository":  "android_kernel_asus_X01AD",
     "target_path": "kernel/asus/X01AD",
     "branch": "eleven"
   },
   {
-    "repository":  "vendor_asus_x01ad",
+    "repository":  "android_vendor_asus_x01ad",
     "target_path": "vendor/asus/X01AD",
     "branch": "eleven",
-    "remote": "pixel-devices-blobs"
   }
 ]
